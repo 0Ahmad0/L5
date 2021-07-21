@@ -81,6 +81,7 @@ class SignUpPage extends StatelessWidget {
                     Navigator.pop(context);
                   }, child: Text('Add User',style: TextStyle(
                       color: KTextColor
+
                   ),)),
                   TextButton(onPressed: (){
                     Navigator.push(context, MaterialPageRoute(builder: (ctx)=>SignUpPage()));
